@@ -9,7 +9,7 @@ app.use(bodyParser.raw({ type: "application/vnd.custom-type" }));
 app.use(bodyParser.text({ type: "text/html" }));
 
 app.get("/", async (req, res) => {
-  res.json({ Hello: "What???" });
+  res.json({ Hello: "What is this???" });
 });
 
 app.listen(port, () => {
